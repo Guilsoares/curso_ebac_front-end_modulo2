@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header{
+    background-color: #2f3640;
+    padding: 16px 0;
+    color: #d2d3d4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li{
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+header li a{
+    color: #d2d3d4;
+    text-decoration: none;
+}
+
+.container{
+    width: 1366px;
+    margin: 0 auto;
+
+}
+
+.artigos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.artigos article img{
+    /*height: 180px;*/
+    width: 100%;
+
+}
+
+.artigos article{
+    width: 30%;
+
+}
+
+section{
+    padding: 16px 0;
+}
+
+section h2,
+.artigos article{
+    margin-bottom: 16px;
+}
+
+.artigos article h3{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.artigos article a{
+    background-color: grey;
+    padding: 8px;
+    display: inline-block;
+    color: #d2d3d4;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.artigos article a:hover{
+    text-decoration: underline;
+}
+
+.artigos article p,
+.artigos article h3,
+.artigos article a{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.artigos article h3{
+    font-size: 24px;
+}
+
+section h2{
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+#Sports{
+    background-color: rgba(0, 255, 0, 0.1);
+}
+
+#Sports article a{
+    background-color: rgba(0, 255, 0, 0.3);
+    color: #fff;
+}
+
+#Economy{
+background-color: rgba(11, 11, 11, 0.1);
+}
+
+#Economy article a{
+    color: #d2d3d4;
+    background-color: grey;
+}
+
+.artigos article p{
+    width: 100%;
+}
+
+#Entretenimento{
+    background-color: rgba(247, 133, 11, 0.1);
+}
+
+#Entretenimento article a{
+    background-color: rgba(247, 133, 11, 0.3);
+    color: #fff;
+}
+
+#Tecnologia{
+    background-color: rgba(13, 0, 255, 0.1);
+}
+
+#Tecnologia article a{
+    background-color:rgba(13, 0, 255, 0.3) ;
+    color: #fff;
+}
